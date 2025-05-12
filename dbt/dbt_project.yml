@@ -1,0 +1,14 @@
+name: 'iceberg_transformations'
+version: '1.0'
+profile: 'spark_iceberg_local'
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target"]
+
+models:
+  iceberg_transformations:
+    +catalog: local
+    +materialized: table
+    silver:
+      +schema: silver

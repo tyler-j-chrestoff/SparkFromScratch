@@ -1,0 +1,8 @@
+spark_iceberg_local:
+  target: dev
+  outputs:
+    dev:
+      type: spark
+      method: silver
+      schema: null
+      host: NA  # required by dbt-core but not used
