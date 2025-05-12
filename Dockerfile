@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     curl wget vim openjdk-11-jdk scala python3 python3-pip && \
     apt-get clean
 
-ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-arm64
 ENV PATH=$PATH:$JAVA_HOME/bin
 
 RUN echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" > /etc/apt/sources.list.d/sbt.list && \

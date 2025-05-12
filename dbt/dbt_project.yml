@@ -8,7 +8,4 @@ clean-targets: ["target"]
 
 models:
   iceberg_transformations:
-    +catalog: local
     +materialized: table
-    silver:
-      +schema: silver

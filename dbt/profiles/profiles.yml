@@ -3,6 +3,6 @@ spark_iceberg_local:
   outputs:
     dev:
       type: spark
-      method: silver
-      schema: null
+      method: session
+      schema: silver
       host: NA  # required by dbt-core but not used

@@ -1,0 +1,4 @@
+dbt/derby.log
+dbt/logs/*
+dbt/metastore_db/*
+dbt/target/*
