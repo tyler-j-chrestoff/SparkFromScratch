@@ -1,4 +1,4 @@
-A Dockerfile that installs Java, Python, Spark, sbt to give a full sandbox environment for playing with Spark using interactive Python, Scala, or SparkSQL in addition to supporting running standalone Python and Scala Spark applications using `spark-submit`.
+A Dockerfile that installs Java, Python, Spark, sbt to give a full sandbox environment for playing with Spark using interactive Python, Scala, or SparkSQL. Supports running standalone Python and Scala Spark applications using `spark-submit`.
 
 ## Build the image
 
