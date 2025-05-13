@@ -1,5 +1,9 @@
 A Dockerfile that installs Java, Python, Spark, sbt to give a full sandbox environment for playing with Spark using interactive Python, Scala, or SparkSQL. Supports running standalone Python and Scala Spark applications using `spark-submit`.
 
+## ARM64
+
+This image is built for ARM64 architecture. If you are using an x86_64 machine, you will need to use `docker buildx` to build the image. See: https://docs.docker.com/build/building/multi-platform/
+
 ## Build the image
 
 ```
